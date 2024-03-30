@@ -3,7 +3,7 @@
 
 void Execute()
 {
-    std::string script = R"(print("Hello world i am from cidiacheats.com"))";
+    std::string script = R"(print("Hello, World"))";
     fx::LuaScriptRuntime* Runtime = new fx::LuaScriptRuntime();
     Runtime->m_stream->Write(script);
     Runtime->m_stream->ScriptState(Runtime->LUA());
